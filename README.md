@@ -1,6 +1,8 @@
 SVGDraw
 =======
 
+![SVGDraw](img/screenshot.png)
+
 This Perl module is a convenience-wrapper for SVG (`use SVG`). To test the
 module, run the demo/test_draw.pl script in this repo. You will need to install
 any modules from CPAN that are not present on your system (on Windows, use
