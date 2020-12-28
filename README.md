@@ -20,3 +20,12 @@ Now, you can open and view the SVG file.
 The .pm library is still incomplete. TODOs include a print_circle() function
 and several other convenience functions. Stay tuned...
 
+The image below shows the logical geometry of the planes in SVGDraw:
+
+![SVGDraw](img/geometry.png)
+
+The SVG viewbox is the default plane which `use SVG` uses. The SVGDraw drawbox
+is the plane that SVGDraw draws to (and project down inside the drawbox_margin.
+The `Plane` plane is the user-data coordinate space and can be scaled and/or
+translated as desired by configuring the settings in `$svg_canvas`.
+
